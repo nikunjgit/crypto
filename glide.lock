@@ -1,0 +1,24 @@
+hash: ea7295cfc9c663c43daa1fa07f24feebd9e26c2b64eef50088cdc353cab0435d
+updated: 2017-10-29T22:20:36.138809456-04:00
+imports:
+- name: github.com/d4l3k/talib
+  version: 7775b9da1da7c78030e9939ff9cee7b8d3c55223
+- name: github.com/garyburd/redigo
+  version: 34a326de1fea52965fa5ad664d3fc7163dd4b0a1
+  subpackages:
+  - redis
+- name: github.com/go-redis/redis
+  version: 35248155a505a84811be81a2aab1c423317447be
+  subpackages:
+  - internal
+  - internal/consistenthash
+  - internal/hashtag
+  - internal/pool
+  - internal/proto
+- name: github.com/gorilla/websocket
+  version: ea4d1f681babbce9545c9c5f3d5194a789c89f5b
+- name: github.com/markcheno/go-talib
+  version: 728fd593e16c454b586fbbe4a9fc039319edf761
+- name: github.com/preichenberger/go-coinbase-exchange
+  version: 17f796ead030f3399d52fabb3a15c14bac07cda3
+testImports: []
